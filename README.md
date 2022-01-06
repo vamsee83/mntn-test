@@ -1,6 +1,6 @@
 # mntn-test
 
-##Test Details
+## Test Details
 > Test will verify the Public REST API https://cat-fact.herokuapp.com/facts/ is returning <br />
   cat facts. ex: Cats make more than 100 different sounds whereas dogs make around 10.
 
