@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Cat Facts- Scenario" verbose="1">
+    <parameter name="url" value="https://cat-fact.herokuapp.com"/>
+    <test verbose="1" name="Verify GET is returning Cat Facts">
+        <classes>
+            <class name="cats.CatFactsTest">
+                <parameter name="factsCount" value="5"/>
+                <parameter name="factText"
+                           value="Cats make more than 100 different sounds whereas dogs make around 10."/>
+                <methods>
+                    <include name="verifyCatFactsGETTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
