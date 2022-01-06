@@ -25,4 +25,4 @@
   > Log file can be generated using logback
   
 ## Execution
-> Test can be executed using CLI ./gradlew clean test
+> Test can be executed using CLI "./gradlew clean test" from project root folder
